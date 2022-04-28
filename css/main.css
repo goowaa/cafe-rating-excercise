@@ -24,13 +24,14 @@ body {
 
 .header {
   margin: 0 auto;
+  color: #909090;
 }
 
 .adiv {
   border-radius: 15px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
-  font-size: 20pt;
+  font-size: 30pt;
   height: 46px;
 }
 
