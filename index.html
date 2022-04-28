@@ -1,46 +1,93 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <title></title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/main.js" async type="text/javascript"></script>
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WNWXWVV');</script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WNWXWVV");
+    </script>
     <!-- End Google Tag Manager -->
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNWXWVV"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WNWXWVV"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <div class="container d-flex justify-content-center">
-        <div class="card mt-5 pb-5">
-            <div class="d-flex flex-row justify-content-between p-3 adiv text-white"> <i class="fas fa-chevron-left"></i> <span class="pb-3">feedback</span> <i class="fas fa-times"></i> </div>
-            <div class="mt-2 p-4 text-center">
-                <!-- <h6 class="mb-0">Your feedback help us to improve.</h6>
+    <div
+      style="margin-top: 100px"
+      class="container d-flex justify-content-center"
+    >
+      <div class="card mt-5 pb-5">
+        <div
+          style="margin-bottom: 40px"
+          class="d-flex flex-row justify-content-between p-3 adiv text-white"
+        >
+          <span class="pb-3 header">DID YOU LIKE MAIN COURSE?</span>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="mt-2 p-4 text-center">
+          <!-- <h6 class="mb-0">Your feedback help us to improve.</h6>
                 <small class="px-3">Please let us know about your chat experience.</small> -->
-                <div class="d-flex flex-row justify-content-center mt-2">
-                    <img class="ratingIcon" onclick="trackRatingClick(1)" data-grade="1" src="https://img.icons8.com/emoji/48/000000/angry-face-emoji--v2.png" />
-                    <img class="ratingIcon" onclick="trackRatingClick(2)" data-grade="2" src="https://img.icons8.com/fluent/48/000000/sad.png" />
-                    <img class="ratingIcon" onclick="trackRatingClick(3)" data-grade="3" src="https://img.icons8.com/color/48/000000/happy.png" />
-                    <img class="ratingIcon" onclick="trackRatingClick(4)" data-grade="4" src="https://img.icons8.com/emoji/48/000000/smiling-face.png" />
-                    <img class="ratingIcon" onclick="trackRatingClick(5)" data-grade="5" src="https://img.icons8.com/color/48/000000/lol.png" />
-                </div>
-                <!-- <div class="form-group mt-4"> <textarea class="form-control" rows="4" placeholder="Message"></textarea> </div>
+          <div
+            style="text-align: center"
+            class="d-flex flex-row justify-content-center mt-2"
+          >
+            <img
+              class="ratingIcon"
+              onclick="trackRatingClick(1)"
+              data-grade="1"
+              src="static/1.png"
+            />
+            <img
+              class="ratingIcon"
+              onclick="trackRatingClick(2)"
+              data-grade="2"
+              src="static/2.png"
+            />
+            <img
+              class="ratingIcon"
+              onclick="trackRatingClick(3)"
+              data-grade="3"
+              src="static/3.png"
+            />
+            <img
+              class="ratingIcon"
+              onclick="trackRatingClick(4)"
+              data-grade="4"
+              src="static/4.png"
+            />
+            <img
+              class="ratingIcon"
+              onclick="trackRatingClick(5)"
+              data-grade="5"
+              src="static/5.png"
+            />
+          </div>
+          <!-- <div class="form-group mt-4"> <textarea class="form-control" rows="4" placeholder="Message"></textarea> </div>
                 <div class="mt-2"> <button type="button" class="btn btn-primary btn-block"><span>Send feedback</span></button> </div>
                 <p class="mt-3">Continue without sending feedback</p> -->
-                
-            </div>
         </div>
+      </div>
     </div>
-
   </body>
 </html>
